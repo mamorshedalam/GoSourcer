@@ -1,0 +1,161 @@
+{
+  "TabStyleOne": [
+    {
+      "title": "Talent Acquisition Specialist/Manager",
+      "img": "/images/generator-img/chat-export-vedio.png",
+      "menuId": "video-generator",
+      "text": "Talent Acquisition Specialist/Manager",
+      "target": "video-generate",
+      "iconImg": "/images/icons/video-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Boost Candidate Response Rates with personalized AI outreach."
+        },
+        {
+          "text": "Achieve a higher Pipeline-to-Hire Ratio through targeted sourcing."
+        },
+        {
+          "text": "Maximize Sourcing Efficiency to focus on what matters most."
+        },
+        {
+          "text": "Improve your Offer Acceptance Rate with data-driven insights."
+        }
+      ]
+    },
+    {
+      "title": "Sourcing Specialist/Manager",
+      "img": "/images/generator-img/chat-export-audio.png",
+      "menuId": "audio-generator",
+      "text": "Sourcing Specialist/Manager",
+      "target": "audio-generate",
+      "iconImg": "/images/icons/audio-g.png",
+      "isSelect": true,
+      "subItem": [
+        {
+          "text": "Source more efficiently with an increased Candidate Volume."
+        },
+        {
+          "text": "Improve the Qualified Candidate Ratio with better matching tools."
+        },
+        {
+          "text": "Maximize Automation Utilization Rates for scalable success."
+        },
+        {
+          "text": "Minimize Candidate Drop-Off Rates with seamless sourcing workflows."
+        }
+      ]
+    },
+    {
+      "title": "Hiring Manager",
+      "img": "/images/generator-img/chat-export-photo.png",
+      "menuId": "photo-generator",
+      "text": "Hiring Manager",
+      "target": "photo-generate",
+      "iconImg": "/images/icons/photo-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Reduce Time-to-Fill and meet deadlines effortlessly."
+        },
+        {
+          "text": "Ensure high Quality and Diversity of Hire with AI-driven candidate matching."
+        },
+        {
+          "text": "Increase Retention Rates by hiring the right talent faster."
+        },
+        {
+          "text": "Optimize your Hiring Funnel and Recruitment ROI for better results."
+        }
+      ]
+    },
+    {
+      "title": "VP of HR/People",
+      "img": "/images/generator-img/chat-export.png",
+      "menuId": "text-generator",
+      "text": "VP of HR/People",
+      "target": "text-generate",
+      "iconImg": "/images/icons/text-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Fulfill Strategic Roles that align with organizational growth."
+        },
+        {
+          "text": "Boost Talent Acquisition Efficiency with cutting-edge AI."
+        },
+        {
+          "text": "Strengthen your Employer Brand through consistent excellence."
+        },
+        {
+          "text": "Accelerate your Workforce Growth Rate without compromising quality."
+        }
+      ]
+    },
+    {
+      "title": "CFO/CEO",
+      "img": "/images/generator-img/chat-export-code.png",
+      "menuId": "code-generator",
+      "text": "CFO/CEO",
+      "target": "code-generate",
+      "iconImg": "/images/icons/code-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Achieve significant Recruitment Cost Savings with smarter hiring."
+        },
+        {
+          "text": "Drive Revenue Growth with timely, quality hires."
+        },
+        {
+          "text": "Meet headcount goals with a higher Fulfillment Rate."
+        },
+        {
+          "text": "Reduce Turnover Costs by securing top-tier talent from the start."
+        }
+      ]
+    }
+  ],
+  "advanceTab": [
+    {
+      "tabId": "home",
+      "target": "home-tab",
+      "isSelect": true,
+      "menuText": "Create Your Real Job Description",
+      "img": "/images/split/split-1.png",
+      "subTitle": "How it work",
+      "title": "Create a Job Description",
+      "desc": "Effortlessly input your must-haves, nice-to-haves, and deal breakers. Fine-tune job requirements, including hidden needs beyond the Job Description!"
+    },
+    {
+      "tabId": "profile",
+      "target": "profile-tab",
+      "isSelect": false,
+      "menuText": "Streamline Workflow",
+      "img": "/images/split/split-4.png",
+      "subTitle": "Collect Candidates",
+      "title": "Create your pool of candidates effortlessly",
+      "desc": "Activate GoSourcer in seconds, create a group, and let the magic happen - relax or multitask while it finds your perfect candidates!"
+    },
+    {
+      "tabId": "contact",
+      "target": "contact-tab",
+      "isSelect": false,
+      "menuText": "Cybersecurity",
+      "img": "/images/split/split-3.png",
+      "subTitle": "Match Candidates and Job Description",
+      "title": "Put the power of AI to work for you",
+      "desc": "Let our AI engine analyze candidate pools and job requirements, delivering precise scores to match the perfect talent to your needs!"
+    },
+    {
+      "tabId": "contact",
+      "target": "contact-tab",
+      "isSelect": false,
+      "menuText": "Data Analysis",
+      "img": "/images/split/split-5.png",
+      "subTitle": "Ranked Profiles by Relevance and Fit",
+      "title": "Seamlessly add your perfect match to your pipeline!",
+      "desc": "Simply reach out to your perfect-fit candidates and start building your dream team effortlessly!"
+    }
+  ]
+}

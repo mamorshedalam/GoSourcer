@@ -1,0 +1,33 @@
+{
+  "testimonial": [
+    {
+      "isActive": true,
+      "isBorder": true,
+      "desc": "GoSourcer revolutionized our hiring process, seamlessly ranking and matching top candidates to our job requirements with unparalleled precision",
+      "name": "Amanda Robins",
+      "post": "Talent Acquisition Manager",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "With GoSourcer, finding the perfect fit has never been easier - smart prioritization saves time and ensures top-quality matches.",
+      "name": "Jennifer Harris",
+      "post": "HR Manager",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    },
+    {
+      "desc": "This AI solution effortlessly simplifies recruitment, prioritizing, and matching candidates to job requirements. It’s a true productivity booster!",
+      "name": "Ava Parker",
+      "post": "Talent Acquisition Specialist",
+      "userImg": "/images/team/team-02sm.jpg",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png"
+    }
+  ]
+}
