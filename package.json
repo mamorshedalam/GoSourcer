@@ -12,6 +12,7 @@
     "@next/font": "^14.2.3",
     "bootstrap": "^5.3.3",
     "clipboard": "^2.0.11",
+    "lucide-react": "^0.471.0",
     "next": "14.2.3",
     "prismjs": "^1.29.0",
     "react": "^18",

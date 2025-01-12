@@ -49,6 +49,17 @@ const ServiceStyleOne = () => {
       },
     ],
   };
+
+  const iconBoxStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#CD99FF",
+    width: "48px",
+    height: "48px",
+    borderRadius: "50%",
+    background: "linear-gradient(180deg,rgba(14, 12, 21, 0.5),rgba(99, 65, 163, 0.5))"
+  }
   return (
     <>
       <div className="container">
@@ -64,12 +75,14 @@ const ServiceStyleOne = () => {
                     <div className="rainbow-box-card card-style-default aiwave-service-default has-bg-shaped">
                       <div className="inner">
                         <div className="icon">
-                          <Image
-                            src={data.img}
-                            width={48}
-                            height={48}
-                            alt="Servece Icon"
-                          />
+                          <div style={iconBoxStyle}>
+                            <Image
+                              src={data.img}
+                              width={24}
+                              height={24}
+                              alt="Servece Icon"
+                            />
+                          </div>
                         </div>
                         <div className="description centered-shape">
                           <h5 className="title">{data.title}</h5>

@@ -1,17 +1,17 @@
 {
   "serviceOne": [
     {
-      "img": "/images/icons/service-icon-01.svg",
+      "img": "/images/icons/brain.svg",
       "title": "Screen Thousands of Candidates in Minutes",
       "desc": "Reviewing 1,000 profiles takes 3+ days for a recruiter at 1-2 minutes each - GoSourcer does it in 5 minutes"
     },
     {
-      "img": "/images/icons/service-icon-02.svg",
+      "img": "/images/icons/list.svg",
       "title": "Stay true to your (real) requirements!",
       "desc": "Effortlessly input your must-haves, nice-to-haves, and deal breakers - ensure your job requirements align perfectly with your needs, even the ones not published on the Job Description!"
     },
     {
-      "img": "/images/icons/service-icon-03.svg",
+      "img": "/images/icons/unplug.svg",
       "title": "Align Candidates with Requirements",
       "desc": "Refine your requirements and run the AI engine as many times as needed to find the perfect match!"
     },
@@ -21,12 +21,12 @@
       "desc": "Easily review a prioritized candidate list with grades, LinkedIn profiles, InMail messaging, and easy pipeline integration - all at your fingertips!"
     },
     {
-      "img": "/images/icons/service-icon-02.svg",
+      "img": "/images/icons/clipboard-minus.svg",
       "title": "Unlock detailed, Insightful Candidate Report",
       "desc": "Our AI engine delivers more than just a score - get detailed insights across multiple dimensions, including candidate categorization and in-depth profile analysis for you to stay on top"
     },
     {
-      "img": "/images/icons/service-icon-03.svg",
+      "img": "/images/icons/users.svg",
       "title": "Team of experts  dedicated to your success",
       "desc": "Our expert team is fully committed to empowering your success, providing tailored solutions and unwavering support every step of the way"
     }
