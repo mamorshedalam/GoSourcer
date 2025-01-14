@@ -56,20 +56,6 @@ const PopupMobileMenu = () => {
           </div>
           <div className="content">
             <Nav />
-
-            <div className="rbt-sm-separator"></div>
-            <div className="rbt-default-sidebar-wrapper">
-              <SmallNav />
-            </div>
-          </div>
-          <div className="header-btn d-block d-md-none">
-            <Link
-              className="btn-default"
-              target="_blank"
-              href="/text-generator"
-            >
-              Get Started Free
-            </Link>
           </div>
         </div>
       </div>

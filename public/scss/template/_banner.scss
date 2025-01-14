@@ -423,49 +423,22 @@
     .header-caption {
       span {
         color: var(--color-white);
-        b:nth-child(1) {
-          font-size: 68px;
-        }
-        b:nth-child(2) {
-          font-size: 75px;
-        }
-        b:nth-child(3) {
-          font-size: 46px;
-        }
+        font-size: 75px;
+
         @media #{$lg-layout} {
-          b:nth-child(1) {
-            font-size: 54px;
-          }
-          b:nth-child(2) {
-            font-size: 60px;
-          }
-          b:nth-child(3) {
-            font-size: 36px;
-          }
+          font-size: 60px;
         }
 
         @media #{$md-layout} {
-          b:nth-child(1) {
-            font-size: 50px;
-          }
-          b:nth-child(2) {
-            font-size: 55px;
-          }
-          b:nth-child(3) {
-            font-size: 34px;
-          }
+          font-size: 55px;
         }
 
         @media #{$sm-layout} {
-          b:nth-child(1) {
-            font-size: 42px;
-          }
-          b:nth-child(2) {
-            font-size: 46px;
-          }
-          b:nth-child(3) {
-            font-size: 26px;
-          }
+          font-size: 55px;
+        }
+
+        @media #{$large-mobile} {
+          font-size: 46px;
         }
       }
     }

@@ -12,7 +12,7 @@ import menuImg from "../../public/images/menu-img/menu-img-2.png";
 
 const Nav = () => {
   const pathname = usePathname();
-
+  const [isActive, setIsActive] = useState("/");
   const [sectionStates, setSectionStates] = useState({
     Tools: true,
     Pages: true,
@@ -25,7 +25,10 @@ const Nav = () => {
     }));
   };
 
-  const isActive = (href) => pathname.startsWith(href);
+  // const isActive = (href) => {
+  //   console.log(href);
+  //   // pathname.startsWith(href);
+  // }
 
   return (
     <>
@@ -33,11 +36,10 @@ const Nav = () => {
         {MenuData &&
           MenuData.nav.map((data, index) => (
             <li
-              className={`${
-                data.dropdown
-                  ? "has-dropdown has-menu-child-item position-relative"
-                  : ""
-              } ${data.megamenu ? "with-megamenu has-menu-child-item" : ""}`}
+              className={`${data.dropdown
+                ? "has-dropdown has-menu-child-item position-relative"
+                : ""
+                } ${data.megamenu ? "with-megamenu has-menu-child-item" : ""}`}
               key={index}
             >
               {data.link === "#" ? (
@@ -56,7 +58,8 @@ const Nav = () => {
               ) : (
                 <Link
                   href={data.link}
-                  className={isActive(data.link) ? "active" : ""}
+                  onClick={() => setIsActive(data.link)}
+                  className={isActive == data.link ? "active" : ""}
                 >
                   {data.text}
                   {data.isIcon ? (
@@ -68,21 +71,20 @@ const Nav = () => {
               )}
 
               {data.isMenu &&
-              !data.inner &&
-              !data.dashboard &&
-              !data.upcoming ? (
+                !data.inner &&
+                !data.dashboard &&
+                !data.upcoming ? (
                 <ul
-                  className={`submenu ${
-                    !sectionStates[data.text] ? "d-block" : ""
-                  }`}
+                  className={`submenu ${!sectionStates[data.text] ? "d-block" : ""
+                    }`}
                 >
                   {data.subItem &&
                     data.subItem.map((innerData, innerIndex) => (
                       <li key={innerIndex}>
                         <Link
-                          className={`${
-                            isActive(innerData.link) ? "active" : ""
-                          } ${innerData.isDisable ? "disabled" : ""}`}
+                          onClick={() => setIsActive(data.link)}
+                          className={`${isActive == data.link ? "active" : ""
+                            } ${innerData.isDisable ? "disabled" : ""}`}
                           href={!innerData.isDisable ? innerData.link : "#"}
                         >
                           <span>{innerData.title}</span>
@@ -99,9 +101,8 @@ const Nav = () => {
                 </ul>
               ) : data.isMenu ? (
                 <div
-                  className={`rainbow-megamenu ${
-                    !sectionStates[data.text] ? "d-block active" : ""
-                  }`}
+                  className={`rainbow-megamenu ${!sectionStates[data.text] ? "d-block active" : ""
+                    }`}
                 >
                   <div className="wrapper">
                     <div className="row row--0">

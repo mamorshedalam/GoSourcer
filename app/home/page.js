@@ -1,8 +1,8 @@
 import HomePage from "./index";
 
 export const metadata = {
-  title: "Home - || AiWave - AI SaaS Website NEXTJS14 UI Kit",
-  description: "AiWave - AI SaaS Website NEXTJS14 UI Kit",
+  title: "GoSourcer",
+  description: "GoSourcer is a platform that helps you find the best talent for your company.",
 };
 
 const HomePageLayout = () => {

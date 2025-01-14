@@ -86,7 +86,7 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          Cost-Effective
+                          Reliable
                         </b>
                       </span>
                     </span>

@@ -27,7 +27,7 @@
   ],
   "nav": [
     {
-      "link": "/home",
+      "link": "/",
       "isIcon": false,
       "isMenu": false,
       "text": "Home"
