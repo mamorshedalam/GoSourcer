@@ -2,7 +2,7 @@ import BackToTop from "./backToTop";
 import HomePage from "./home/page";
 
 export const metadata = {
-  title: "Home - || AiWave - AI SaaS Website NEXTJS14 UI Kit",
+  title: "Home",
   description: "AiWave - AI SaaS Website NEXTJS14 UI Kit",
 };
 

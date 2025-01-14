@@ -108,9 +108,9 @@ const Pricing = ({ start, end, parentClass, isBadge, gap }) => {
                               }`}
                               href="#"
                             >
-                              Get Started
+                              Get Started Now
                             </a>
-                            <p className="bottom-text">{innerData.limited}</p>
+                            <p className="bottom-text">Unlock your hiring potential—choose a plan today!</p>
                           </div>
                         </div>
                         {innerData.isSelect && isBadge ? (

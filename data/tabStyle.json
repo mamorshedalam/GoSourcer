@@ -1,12 +1,12 @@
 {
   "TabStyleOne": [
     {
-      "title": "Talent Acquisition Specialist/Manager",
+      "title": "Talent Acquisition Specialist",
       "img": "/images/generator-img/chat-export-vedio.png",
       "menuId": "video-generator",
-      "text": "Talent Acquisition Specialist/Manager",
+      "text": "Talent Acquisition Specialist",
       "target": "video-generate",
-      "iconImg": "/images/icons/video-g.png",
+      "iconImg": "/images/icons/user-search.svg",
       "isSelect": false,
       "subItem": [
         {
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "title": "Sourcing Specialist/Manager",
+      "title": "Sourcing Specialist",
       "img": "/images/generator-img/chat-export-audio.png",
       "menuId": "audio-generator",
-      "text": "Sourcing Specialist/Manager",
+      "text": "Sourcing Specialist",
       "target": "audio-generate",
-      "iconImg": "/images/icons/audio-g.png",
+      "iconImg": "/images/icons/search.svg",
       "isSelect": true,
       "subItem": [
         {
@@ -52,7 +52,7 @@
       "menuId": "photo-generator",
       "text": "Hiring Manager",
       "target": "photo-generate",
-      "iconImg": "/images/icons/photo-g.png",
+      "iconImg": "/images/icons/user-check.svg",
       "isSelect": false,
       "subItem": [
         {
@@ -70,12 +70,12 @@
       ]
     },
     {
-      "title": "VP of HR/People",
+      "title": "VP of HR",
       "img": "/images/generator-img/chat-export.png",
       "menuId": "text-generator",
-      "text": "VP of HR/People",
+      "text": "VP of HR",
       "target": "text-generate",
-      "iconImg": "/images/icons/text-g.png",
+      "iconImg": "/images/icons/user.svg",
       "isSelect": false,
       "subItem": [
         {
@@ -98,7 +98,7 @@
       "menuId": "code-generator",
       "text": "CFO/CEO",
       "target": "code-generate",
-      "iconImg": "/images/icons/code-g.png",
+      "iconImg": "/images/icons/briefcase.svg",
       "isSelect": false,
       "subItem": [
         {
@@ -131,7 +131,7 @@
       "tabId": "profile",
       "target": "profile-tab",
       "isSelect": false,
-      "menuText": "Streamline Workflow",
+      "menuText": "Create your pool of candidates effortlessly",
       "img": "/images/split/split-4.png",
       "subTitle": "Collect Candidates",
       "title": "Create your pool of candidates effortlessly",
@@ -141,7 +141,7 @@
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Cybersecurity",
+      "menuText": "Put the power of AI to work for you",
       "img": "/images/split/split-3.png",
       "subTitle": "Match Candidates and Job Description",
       "title": "Put the power of AI to work for you",
@@ -151,7 +151,7 @@
       "tabId": "contact",
       "target": "contact-tab",
       "isSelect": false,
-      "menuText": "Data Analysis",
+      "menuText": "Seamlessly add your perfect match",
       "img": "/images/split/split-5.png",
       "subTitle": "Ranked Profiles by Relevance and Fit",
       "title": "Seamlessly add your perfect match to your pipeline!",

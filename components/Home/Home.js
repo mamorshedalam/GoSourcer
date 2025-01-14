@@ -97,13 +97,17 @@ const Home = () => {
                   Accelerate Time to Hire, Deliver Better Candidates, Save Money
                 </p>
                 <div className="form-group">
-                  <textarea
-                    name="text"
-                    id="slider-text-area"
-                    cols="30"
-                    rows="2"
-                    placeholder="Unlock the power of GoSourcer! Enter your email to get started today."
-                  ></textarea>
+                  <div className="multiline-placeholder">
+                    <textarea
+                      name="text"
+                      id="slider-text-area"
+                      cols="30"
+                      rows="2"
+                      placeholder=""
+                    ></textarea>
+                    <div><span>Unlock the power of GoSourcer!</span><span>Enter your email to get started today.</span></div>
+                  </div>
+
                   <Link className="btn-default " href="/text-generator">
                     Start with AI
                   </Link>
@@ -172,7 +176,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-service-area rainbow-section-gap">
+      <div id="personas" className="rainbow-service-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -184,11 +188,11 @@ const Home = () => {
               >
                 <h4 className="subtitle">
                   <span className="theme-gradient">
-                  GoSourcer UNLOCKS THE POTENTIAL ai
+                    GOSOURCER UNLOCKS THE POTENTIAL AI
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                AI magic made by Recruiters for <br /> Recruiters.
+                  AI magic made by Recruiters for <br /> Recruiters.
                 </h2>
               </div>
             </div>
@@ -211,7 +215,7 @@ const Home = () => {
                   <span className="theme-gradient">Wonder In The Making</span>
                 </h4>
                 <h2 className="title mb--60">
-                Recruit Smarter, Not <br /> Harder
+                  Recruit Smarter, Not <br /> Harder
                 </h2>
               </div>
             </div>
@@ -220,7 +224,7 @@ const Home = () => {
         <ServiceStyleOne />
       </div>
 
-      <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
+      <div id="howWork" className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
         <div className="container">
           <div className="html-tabs" data-tabs="true">
             <AdvanceTab />
@@ -245,7 +249,7 @@ const Home = () => {
                   <span className="theme-gradient">GoSoucer Collaborations</span>
                 </h4>
                 <h2 className="title mb--20">
-                Seamlessly orchestrate with your tools to boost collaboration and  achieve extraordinary results together!
+                  Seamlessly orchestrate with your tools to boost collaboration and  achieve extraordinary results together!
                 </h2>
                 <Link
                   className="btn-default btn-large color-blacked"
@@ -288,7 +292,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
+      <div id="pricing" className="aiwave-pricing-area wrapper rainbow-section-gap-big">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -307,7 +311,7 @@ const Home = () => {
               </div>
 
               <nav className="aiwave-tab">
-                <div
+                {/* <div
                   className="tab-btn-grp nav nav-tabs text-center justify-content-center"
                   id="nav-tab"
                   role="tablist"
@@ -335,7 +339,7 @@ const Home = () => {
                         )}
                       </button>
                     ))}
-                </div>
+                </div> */}
               </nav>
             </div>
           </div>
@@ -350,7 +354,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-testimonial-area rainbow-section-gap">
+      <div id="community" className="rainbow-testimonial-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

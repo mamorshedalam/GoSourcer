@@ -244,13 +244,13 @@ Primary style
 
 
 .cd-words-wrapper {
-    display: inline-block;
+    display: block;
     position: relative;
     text-align: left;
 }
 
 .cd-words-wrapper b {
-    display: inline-block;
+    display: block;
     position: absolute;
     white-space: nowrap;
     left: 0;

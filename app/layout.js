@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { Sora } from "@next/font/google";
 
 import "bootstrap/scss/bootstrap.scss";
+import "../public/css/custom.css";
 
 // ========= Plugins CSS START =========
 import "../public/css/plugins/feature.css";

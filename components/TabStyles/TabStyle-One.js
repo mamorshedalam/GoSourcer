@@ -31,12 +31,14 @@ const TabStyleOne = () => {
                       aria-selected="false"
                     >
                       <span className="generator-icon">
-                        <Image
-                          src={data.iconImg}
-                          width={24}
-                          height={24}
-                          alt="Vedio Generator Icon"
-                        />
+                        <div>
+                          <Image
+                            src={data.iconImg}
+                            width={24}
+                            height={24}
+                            alt="Vedio Generator Icon"
+                          />
+                        </div>
                         {data.text}
                       </span>
                       <span className="border-bottom-style"></span>

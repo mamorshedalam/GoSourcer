@@ -27,10 +27,10 @@ const Copyright = () => {
                 <p className="copyright-text">
                   Copyright © 2024{" "}
                   <Link
-                    href="https://themeforest.net/user/rainbow-themes"
+                    href="/"
                     className="btn-read-more"
                   >
-                    <span>Rainbow-Themes.</span>
+                    <span>GoSourcer</span>
                   </Link>
                 </p>
               </div>
