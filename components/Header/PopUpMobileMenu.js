@@ -55,7 +55,7 @@ const PopupMobileMenu = () => {
             </div>
           </div>
           <div className="content">
-            <Nav />
+            <Nav setActiveMobileMenu={setActiveMobileMenu} />
           </div>
         </div>
       </div>
