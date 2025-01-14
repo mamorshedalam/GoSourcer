@@ -482,7 +482,6 @@
               border: 2px solid var(--color-primary);
             }
           }
-          textarea:focus + div,
           textarea:not(:placeholder-shown) + div {
             visibility: hidden;
           }
@@ -497,6 +496,10 @@
             top: 18px;
             left: 18px;
             color: var(--color-link);
+
+            @media #{$sm-layout} {
+              font-size: 14px;
+            }
           }
         }
 

@@ -2,7 +2,7 @@
   "TabStyleOne": [
     {
       "title": "Talent Acquisition Specialist",
-      "img": "/images/generator-img/chat-export-vedio.png",
+      "img": "/images/generator-img/Talent acq specialist.svg",
       "menuId": "video-generator",
       "text": "Talent Acquisition Specialist",
       "target": "video-generate",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Sourcing Specialist",
-      "img": "/images/generator-img/chat-export-audio.png",
+      "img": "/images/generator-img/Sourcing specialist.svg",
       "menuId": "audio-generator",
       "text": "Sourcing Specialist",
       "target": "audio-generate",
@@ -48,7 +48,7 @@
     },
     {
       "title": "Hiring Manager",
-      "img": "/images/generator-img/chat-export-photo.png",
+      "img": "/images/generator-img/Hiring Manager.svg",
       "menuId": "photo-generator",
       "text": "Hiring Manager",
       "target": "photo-generate",
@@ -71,7 +71,7 @@
     },
     {
       "title": "VP of HR",
-      "img": "/images/generator-img/chat-export.png",
+      "img": "/images/generator-img/VP of HR.svg",
       "menuId": "text-generator",
       "text": "VP of HR",
       "target": "text-generate",
@@ -94,7 +94,7 @@
     },
     {
       "title": "CFO/CEO",
-      "img": "/images/generator-img/chat-export-code.png",
+      "img": "/images/generator-img/CFO_CEO.svg",
       "menuId": "code-generator",
       "text": "CFO/CEO",
       "target": "code-generate",
