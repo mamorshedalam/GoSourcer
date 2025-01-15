@@ -121,8 +121,8 @@
       "tabId": "home",
       "target": "home-tab",
       "isSelect": true,
-      "menuText": "Create Your Real Job Description",
-      "img": "/images/split/split-1.png",
+      "menuText": "Create your (real) job description",
+      "img": "/images/split/Create a Job Description.svg",
       "subTitle": "How it work",
       "title": "Create a Job Description",
       "desc": "Effortlessly input your must-haves, nice-to-haves, and deal breakers. Fine-tune job requirements, including hidden needs beyond the Job Description!"
@@ -132,7 +132,7 @@
       "target": "profile-tab",
       "isSelect": false,
       "menuText": "Create your pool of candidates effortlessly",
-      "img": "/images/split/split-4.png",
+      "img": "/images/split/Create your pool of candidates effortlessly.svg",
       "subTitle": "Collect Candidates",
       "title": "Create your pool of candidates effortlessly",
       "desc": "Activate GoSourcer in seconds, create a group, and let the magic happen - relax or multitask while it finds your perfect candidates!"
@@ -142,7 +142,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Put the power of AI to work for you",
-      "img": "/images/split/split-3.png",
+      "img": "/images/split/Put the power of AI to work for you.svg",
       "subTitle": "Match Candidates and Job Description",
       "title": "Put the power of AI to work for you",
       "desc": "Let our AI engine analyze candidate pools and job requirements, delivering precise scores to match the perfect talent to your needs!"
@@ -152,7 +152,7 @@
       "target": "contact-tab",
       "isSelect": false,
       "menuText": "Seamlessly add your perfect match",
-      "img": "/images/split/split-5.png",
+      "img": "/images/split/Seamlessly add your perfect match to your pipeline.svg",
       "subTitle": "Ranked Profiles by Relevance and Fit",
       "title": "Seamlessly add your perfect match to your pipeline!",
       "desc": "Simply reach out to your perfect-fit candidates and start building your dream team effortlessly!"

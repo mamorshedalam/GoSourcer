@@ -175,6 +175,10 @@
     .thumbnail {
         img {
             border-radius: 10px;
+            height: revert-layer;
+            @media #{$sm-layout} {
+                height: auto; 
+            }
         }
     }
 }

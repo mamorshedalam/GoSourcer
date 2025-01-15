@@ -583,6 +583,21 @@
       overflow: hidden;
       position: relative;
 
+      .slider-image-effect {
+        border-radius: 21px;        
+
+        @media #{$md-layout} {
+          border-radius: 16px; 
+        }
+        @media #{$sm-layout} {
+          border-radius: 12px; 
+        }
+
+        @media #{$large-mobile} {
+          border-radius: 9px; 
+        }
+      }
+
       @media #{$md-layout, $lg-layout} {
         padding: 40px;
       }

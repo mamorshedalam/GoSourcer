@@ -9,7 +9,7 @@ import PricingData from "../../data/pricing.json";
 
 import SplitImg from "../../public/images/split/split-2.png";
 import SplitLogo from "../../public/images/logo/favicon.png";
-import bannerImg from "../../public/images/bg/slider-main-image.png";
+import bannerImg from "../../public/images/bg/Dashboard.svg";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -103,13 +103,13 @@ const Home = () => {
                       id="slider-text-area"
                       cols="30"
                       rows="2"
-                      placeholder=""
+                      placeholder="Enter your email to get started with GoSourcer today"
                     ></textarea>
-                    <div><span>Unlock the power of GoSourcer!</span><span>Enter your email to get started today.</span></div>
+                    {/* <div><span>Unlock the power of GoSourcer!</span><span>Enter your email to get started today.</span></div> */}
                   </div>
 
                   <Link className="btn-default " href="/text-generator">
-                    Start with AI
+                  I never want to source candidate manually ever again
                   </Link>
                 </div>
                 <div className="inner-shape">
@@ -149,8 +149,6 @@ const Home = () => {
                 <Image
                   className="slider-image-effect"
                   src={bannerImg}
-                  width={1055}
-                  height={898}
                   alt="Banner Images"
                 />
               </div>
@@ -226,6 +224,20 @@ const Home = () => {
 
       <div id="howWork" className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
         <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div
+                className="section-title text-center pb--60"
+                data-sal="slide-up"
+                data-sal-duration="700"
+                data-sal-delay="100"
+              >
+                <h2 className="title mb--0">
+                  How GoSourcer Works
+                </h2>
+              </div>
+            </div>
+          </div>
           <div className="html-tabs" data-tabs="true">
             <AdvanceTab />
           </div>
