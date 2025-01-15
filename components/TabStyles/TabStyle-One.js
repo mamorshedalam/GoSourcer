@@ -78,7 +78,7 @@ const TabStyleOne = () => {
                             <div className="read-more">
                               <Link
                                 className="btn-default color-blacked"
-                                href="#"
+                                href="/"
                               >
                                 Start Exploring Now
                                 <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>

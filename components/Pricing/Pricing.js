@@ -106,7 +106,7 @@ const Pricing = ({ start, end, parentClass, isBadge, gap }) => {
                                   ? "color-blacked"
                                   : "btn-border"
                               }`}
-                              href="#"
+                              href="/"
                             >
                               Get Started Now
                             </a>

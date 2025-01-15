@@ -54,7 +54,7 @@ const CtaOne = () => {
                   alt="Group Image"
                 />
               </div>
-              <Link className="btn-default" href="#">
+              <Link className="btn-default" href="/">
                 Join Now Today Free
               </Link>
             </div>

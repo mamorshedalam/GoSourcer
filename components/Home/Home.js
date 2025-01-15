@@ -108,7 +108,7 @@ const Home = () => {
                     {/* <div><span>Unlock the power of GoSourcer!</span><span>Enter your email to get started today.</span></div> */}
                   </div>
 
-                  <Link className="btn-default " href="/text-generator">
+                  <Link className="btn-default " href="/">
                   I never want to source candidate manually ever again
                   </Link>
                 </div>
@@ -265,7 +265,7 @@ const Home = () => {
                 </h2>
                 <Link
                   className="btn-default btn-large color-blacked"
-                  href="/contact"
+                  href="/"
                 >
                   Try It Now{" "}
                   <i className="fa-sharp fa-light fa-arrow-right ml--5"></i>
